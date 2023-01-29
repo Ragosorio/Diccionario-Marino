@@ -1,0 +1,111 @@
+body{
+    background: #000123
+}
+
+.head{
+    margin-top: 25px;
+}
+
+.title{
+    font-family: 'Unbounded', cursive;
+    text-align: center;
+    color: #fff;
+    font-size: 43px;
+    box-shadow: 0px 4px 4px #ff0f7b, 6px 6px 6px #8B008B;
+}
+
+.card{
+    box-shadow: 4px 4px 4px #ff0f7b, 6px 6px 6px #8B008B;
+    background: rgb(219, 207, 207);
+    border-radius: 20px;
+}
+
+.card-img-top{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card-text{
+    text-align: center;
+}
+
+.btn{
+    background: rgb(219, 207, 207);
+    color: #ff0f7b;
+    border: 1px solid #ff0f7b;
+}
+
+.btn:hover{
+    background: #ff0f7b;
+    color: rgb(219, 207, 207);
+}
+
+.texto-no{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.subtitulo-mini{
+    text-align: center;
+    color: rgb(165, 162, 162);
+    font-size: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.subtitulo-mini a{
+    color: rgb(182, 119, 119);
+    text-decoration: none;
+}
+
+/* Formulario */
+.form-position{
+    margin-top: 10px;
+}
+.search-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-input {
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+}
+.btn-form-search {
+    background: #ff0f7b;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.form-inline {
+    display: flex;
+    align-items: center;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 0.25rem;
+    border: none;
+    background-color: #fff;
+}
+
+.btn-outline-success {
+    color: #fff;
+    background-color: #ff0f7b;
+    border-color: #ff0f7b;
+}
+
+.btn-outline-success:hover {
+    color: #ff0f7b;
+    background-color: #fff;
+    border-color: #ff0f7b;
+}
